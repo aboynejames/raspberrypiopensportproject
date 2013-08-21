@@ -1,0 +1,19 @@
+interface=wlan0
+ssid= touchpad
+channel=3
+#bridge=br0
+
+# Hardware configuration
+
+driver=rtl871xdrv
+ieee80211n=1
+hw_mode=g
+device_name=RTL8192CU
+manufacturer=Realtek
+
+auth_algs=1
+wmm_enabled=0
+bridge=br0
+
+
+RTL8188CUS  new comfat usb
